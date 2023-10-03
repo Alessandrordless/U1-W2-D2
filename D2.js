@@ -43,14 +43,26 @@ if (test1 === 8) {
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let totalShoppingCart = 60;
+let freeShipping = "spedizione gratis";
+let shipping = 10;
+
+if (totalShoppingCart > 50) {
+  console.log("Hai diritto ad un regalo! Spedizione Gratuita!");
+} else totalShoppingCart < 50;
+{
+  console.log("totale acquisto 50 :" + ",costi di spedizione" + " " + shipping);
+}
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let totalShoppingCart1 = 60;
+let discount = 0.8;
+let total = totalShoppingCart1 * discount;
+console.log(total);
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -58,13 +70,21 @@ if (test1 === 8) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let click1 = 10;
+let click2 = 20;
+let click3 = 30;
+if (click3 < click2) {
+  console.log(10, 30, 20);
+} else click3 > click1;
+{
+  console.log(click3, click2, click1);
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+let whatIam = 666;
+console.log(typeof whatIam);
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
